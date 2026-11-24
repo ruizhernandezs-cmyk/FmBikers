@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FMBIKERS | Motocicletas Accesibles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+    <a href="index.html" class="brand">
+        <img src="imagenes/logo.jpeg" alt="Logo FMBIKERS" class="brand-logo" />
+        <span class="brand-name">FM<span class="accent">BIKERS</span></span>
+        <span class="brand-tag">GARAGE</span>
+    </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="productos.html">Catálogo de Motos</a>
+        <a href="#beneficios">Financiamiento</a>
+        <a href="productos.html" class="mobile-only-cta">Explorar Inventario →</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="productos.html" class="btn btn-primary btn-sm desktop-cta">Ver Motos</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span> ENTREGA INMEDIATA • PLANES ACCESIBLES
+      </div>
+      <h1 class="hero-title">
+        DOMINA EL ASFALTO.<br />
+        <span class="accent">PAGA LO JUSTO.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Motocicletas seminuevas certificadas y nuevos modelos con planes de pago accesibles. 
+        Revisadas mecánicamente punto por punto para que solo te preocupes por rodar.
+      </p>
+
+      <div class="hero-actions">
+        <a href="productos.html" class="btn btn-primary btn-lg">
+          Explorar Catálogo
+          <span class="arrow">→</span>
+        </a>
+        <a href="#beneficios" class="btn btn-outline btn-lg">¿Cómo funciona?</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-value">10%</span>
+          <span class="stat-label">Enganche mínimo</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-value">60 PTS</span>
+          <span class="stat-label">Inspección mecánica</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-value">24 HRS</span>
+          <span class="stat-label">Aprobación rápida</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">// CULTURA BIKER ACCESIBLE</span>
+        <h2>HECHO PARA QUIENES VIVEN SOBRE DOS RUEDAS</h2>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-number">01</div>
+          <h3>Mensualidades a tu medida</h3>
+          <p>Ajustamos plazos desde 12 hasta 48 meses con tasas transparentes y sin letras chiquitas.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-number">02</div>
+          <h3>Kilometraje real certificado</h3>
+          <p>Cada unidad pasa por escáner y diagnóstico de compresión antes de entrar a nuestro piso.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-number">03</div>
+          <h3>Tomamos tu moto a cuenta</h3>
+          <p>¿Quieres subir de cilindrada? Valuamos tu motocicleta actual al momento como parte del enganche.</p>
+        </article>
+      </div>
+
+      <div class="cta-banner">
+        <div>
+          <h3>¿LISTO PARA ELEGIR TU PRÓXIMA MÁQUINA?</h3>
+          <p>Revisa nuestro inventario actualizado con ficha técnica completa, año, cilindrada y kilometraje.</p>
+        </div>
+        <a href="productos.html" class="btn btn-primary">Ir al Catálogo →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+    <div class="brand">
+        <img src="imagenes/logo.jpeg" alt="Logo FMBIKERS" class="brand-logo" />
+        <span class="brand-name">FM<span class="accent">BIKERS</span></span>
+    </div>
+  </footer>
+
+  <script src="japp.js"></script>
+</body>
+</html>
